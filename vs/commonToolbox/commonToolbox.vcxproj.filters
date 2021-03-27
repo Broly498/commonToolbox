@@ -16,14 +16,23 @@
     <Filter Include="src\interfaceRegistry">
       <UniqueIdentifier>{7a63b06a-392c-4b57-a784-41e7efede7fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\commonToolbox\interfaces">
+      <UniqueIdentifier>{0d516ffc-b699-4dd4-807b-860c16b39385}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\commonToolbox\interfaceRegistry\apiId.h">
       <Filter>include\commonToolbox\interfaceRegistry</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\commonToolbox\interfaces\iRegistrableApi.h">
+      <Filter>include\commonToolbox\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\commonToolbox\interfaceRegistry\apiProvider.h">
+      <Filter>include\commonToolbox\interfaceRegistry</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\interfaceRegistry\apiId.cpp">
+    <ClCompile Include="..\..\src\interfaceRegistry\apiProvider.cpp">
       <Filter>src\interfaceRegistry</Filter>
     </ClCompile>
   </ItemGroup>

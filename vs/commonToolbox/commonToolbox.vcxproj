@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\commonToolbox\interfaceRegistry\apiId.h" />
+    <ClInclude Include="..\..\include\commonToolbox\interfaceRegistry\apiProvider.h" />
+    <ClInclude Include="..\..\include\commonToolbox\interfaces\iRegistrableApi.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\interfaceRegistry\apiId.cpp" />
+    <ClCompile Include="..\..\src\interfaceRegistry\apiProvider.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
